@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, Arial, sans-serif;
+    margin: 2em;
+    background-color: slategrey;
+    color: white;
+}
+
+h1 {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#gameButtonArea > button {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+}
+
+/* The Stop button shouldn't be visible at the beginning of the game. */
+.hidden {
+    display: none;
+}
+
+/* Color the Buttons */
+#button1 {
+    background-color: lightgreen;
+}
+
+#button2 {
+    background-color: lightblue;
+}
+
+#button3 {
+    background-color: pink;
+}
+
+#button4 {
+    background-color: lightyellow;
+}
+
+#button5 {
+    background-color: lightgrey;
+}
+
+/* Change color on click or when the computer is playing back a clue*/
+#button1:active, #button1.lit{
+    /*background-color: green;*/
+/*     background-image: url("assets/button1.jpg"); */
+    background-image: url("https://cdn.glitch.global/e877611b-71cf-4cad-9075-2a7dd5063dc5/thumbnails%2Fbutton1.jpg?1648675012590");
+    background-size: contain;
+}
+
+#button2:active, #button2.lit {
+    /*background-color: blue;*/
+    background: url("https://cdn.glitch.global/e877611b-71cf-4cad-9075-2a7dd5063dc5/thumbnails%2Fbutton2.jpg?1648675016501");
+    background-size: contain;
+}
+
+#button3:active, #button3.lit {
+    /*background: red;*/
+    background-image: url("https://cdn.glitch.global/e877611b-71cf-4cad-9075-2a7dd5063dc5/thumbnails%2Fbutton3.jpg?1648675020104");
+    background-size: contain;
+}
+
+#button4:active, #button4.lit {
+    /*background: yellow;*/
+    background-image: url("https://cdn.glitch.global/e877611b-71cf-4cad-9075-2a7dd5063dc5/thumbnails%2Fbutton4.jpg?1648675023303");
+    background-size: contain;
+}
+
+#button5:active, #button5.lit {
+    /*background: gray;*/
+    background-image: url("https://cdn.glitch.global/e877611b-71cf-4cad-9075-2a7dd5063dc5/thumbnails%2Fbutton5.jpg?1648675026343");
+    background-size: contain;
+}
