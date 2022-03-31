@@ -73,7 +73,7 @@ This taught me three lessons. First, don't just follow the steps in the tutorial
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
 
-I know that in actual web development work, engineers use web frameworks to help them become more efficient and help other developers understand their code. So I am wondering what are the most commonly used web frameworks? How to choose the right web framework when web development? What are the latest web frameworks worth learning?   
+I know that in actual web development work, engineers use web frameworks to help them become more efficient and help other developers understand their code. So I am wondering what are the most commonly used web frameworks in practical work? How to choose the right web framework when web development? What are the latest web frameworks worth learning?   
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
