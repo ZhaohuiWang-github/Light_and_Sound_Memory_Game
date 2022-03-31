@@ -99,7 +99,7 @@ With these difficulty level settings, this game will be suitable for more player
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://unc.zoom.us/rec/share/2FqJNX71wHcNlbMfefzRk2r8VGAS3NvQeO_Djz9CqYZZwyuDUkcrI4AugyhbK-wg.LBtUP6lRKWxMW3Uv?startTime=1648738439000)
 
 
 ## License
