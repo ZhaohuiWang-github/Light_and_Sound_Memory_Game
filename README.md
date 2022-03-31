@@ -89,8 +89,9 @@ I know that in actual web development work, engineers use web frameworks to help
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
+After I submitted my application, I only had 2 days left to finish the pre-work, so there were some features I wanted to implement that I didn't have time to implement. 
 
-I would add a difficulty level option to this game so that players can customize the difficulty level of the game. The difficulty level can be changed in two ways.   
+If I had more time, I would add a difficulty level option to this game so that players can customize the difficulty level of the game. The difficulty level can be changed in two ways.   
 
 One is to change the number of buttons to memorize. Instead of the fixed 8 buttons, players are able to choose the number of buttons to memorize. The other is to change the limit time of the game. I currently set the game time to 30s. I hope that players can adjust the limit time by themselves in the future.   
 
