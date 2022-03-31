@@ -6,7 +6,7 @@ Submitted by: **Zhaohui Wang**
 
 Time spent: **4.5** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: <https://glitch.com/edit/#!/light-and-sound-memory-game-by-zhaohui>
 
 ## Required Functionality
 
@@ -42,32 +42,44 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 The gifs below show the optional features I implemented:  
 * There are 5 buttons and each turn the clue playback will speed up. Every button also has its own backgroud image.   
-![](https://s21.aconvert.com/convert/p3r68-cdx67/i1eek-9f8jc.gif)
+
+![](https://i.imgur.com/25tJJ4M.gif)
+
 * Randomly generate the pattern at the beginning of the game.   
-![](https://s27.aconvert.com/convert/p3r68-cdx67/3fgq9-japdo.gif)
+
+![](https://i.imgur.com/0zkfthU.gif)
+
 * Allow the user to make 2 mistakes before they lose the game. When the user makes a third mistake, the game fails.    
-![](https://s19.aconvert.com/convert/p3r68-cdx67/zurx0-7ogaa.gif)
+
+![](https://i.imgur.com/NsbkcFX.gif)
+
+
 * There is a countdown clock here, players have 30s for each round.    
-![](https://s17.aconvert.com/convert/p3r68-cdx67/hp8yg-llwit.gif)
+
+![](https://i.imgur.com/aPihCWh.gif)
+
 * When the countdown is over, the game fails.    
-![](https://s21.aconvert.com/convert/p3r68-cdx67/ughx4-zy8vy.gif)
+
+![](https://i.imgur.com/bXgk3KJ.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 [YOUR ANSWER HERE]
-https://www.w3schools.com/js/js_math.asp   
-https://developer.mozilla.org/en-US/docs/Web/API/setTimeout   
-https://stackoverflow.com/questions/2738920/how-to-add-background-image-for-input-type-button    
-https://stackoverflow.com/questions/22301555/left-and-right-align-on-same-line  
-https://www.w3schools.com/howto/howto_js_countdown.asp
-https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/  
-https://dev.to/code_mystery/simple-countdown-timer-using-javascript-1jab  
+<https://www.w3schools.com/js/js_math.asp>   
+<https://developer.mozilla.org/en-US/docs/Web/API/setTimeout>   
+<https://stackoverflow.com/questions/2738920/how-to-add-background-image-for-input-type-button>    
+<https://stackoverflow.com/questions/22301555/left-and-right-align-on-same-line>   
+<https://www.w3schools.com/howto/howto_js_countdown.asp>   
+<https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies>   
+<https://dev.to/code_mystery/simple-countdown-timer-using-javascript-1jab>    
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
 
-When I was writing the second optional function, at first I just followed the tips in the tutorial and just updated the clueHoldTime in playClueSequence. But I have a habit of testing code robustness in extreme cases. During testing, I found that if users click stop and then click Start, the playback speed would be very fast, and sometimes I could not even hear the sound playing. To locate and fix the problem, I used console.log to output the clueHoldTime for each round, and found that when a new round of the game started, the clueHoldTime would not change back to the initial 1000ms, but would continue to decrease from the previously updated one. So, I reinitialized the clueHoldTime in startGame, which solved the problem.  
+When I was writing the second optional function, at first I just followed the tips in the tutorial and just updated the clueHoldTime in playClueSequence. But I have a habit of testing code robustness in extreme cases. During testing, I found that if users click stop and then click Start, the playback speed would be very fast, and sometimes I could not even hear the sound playing. To locate and fix the problem, I used console.log to output the clueHoldTime for each round, and found that when a new round of the game started, the clueHoldTime would not change back to the initial 1000ms, but would continue to decrease from the previously updated one. So, I reinitialized the clueHoldTime in startGame, which solved the problem.   
+
 This taught me three lessons. First, don't just follow the steps in the tutorial, but always keep thinking. Second, get into the habit of testing the feasibility of the code under special input and special interaction conditions, which can make the code more robust. Third, be good at using the console to monitor the intermediate results of the code, so that you can find and fix bugs faster.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
@@ -78,8 +90,10 @@ I know that in actual web development work, engineers use web frameworks to help
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
 
-I want to add a difficulty level option to this game so that users can customize the difficulty level of the game. The difficulty level can be changed in two ways.  
+I want to add a difficulty level option to this game so that users can customize the difficulty level of the game. The difficulty level can be changed in two ways.   
+
 One is the number of buttons to memorize. I want the user to be able to choose the number of buttons to memorize, instead of the fixed 8. The other is to change the limit time of the game. I currently set the game time to 30s. I hope that users can adjust the limit time by themselves in the future.    
+
 With these difficulty level settings, this game will be suitable for more users of different ages to play and will make users feel more challenging and accomplished.    
 
 ## Interview Recording URL Link
